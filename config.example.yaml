@@ -1,0 +1,20 @@
+dify:
+  base_url: "https://api.dify.ai/v1"
+  analyzer_api_key: "app-..."       # Dify workflow: post analysis
+  insights_api_key: "app-..."       # Dify workflow: insight generation
+
+reddit:
+  subreddits:
+    - technology
+    - artificial
+    - startups
+    - SaaS
+    - cryptocurrency
+  sort: "hot"                        # hot | new | top | rising
+  posts_per_subreddit: 25
+
+analysis:
+  batch_size: 20
+
+monitoring:
+  interval_minutes: 30
